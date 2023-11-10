@@ -10,6 +10,8 @@ export const instance = axios.create({
 instance.interceptors.request.use((config: InternalAxiosRequestConfig): InternalAxiosRequestConfig => {
   const accessToken = getCookie('accessToken');
   console.log(process.env.REACT_APP_API_URL);
+  console.log(process.env.REACT_APP_KAKAO_REDIRECT_URL);
+  console.log("뭐가 문제지?");
   if (accessToken) {
     const newConfig = config;
     newConfig.headers.Authorization = getCookie('accessToken');
