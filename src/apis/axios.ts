@@ -12,7 +12,7 @@ instance.interceptors.request.use((config: InternalAxiosRequestConfig): Internal
   console.log(process.env.REACT_APP_API_URL);
   console.log(process.env.REACT_APP_KAKAO_REDIRECT_URL);
   console.log('뭐가 문제지');
-  console.log(`${process.env.REACT_APP_API_URL}/api`)
+  console.log(`${process.env.REACT_APP_API_URL}/api`);
 
   if (accessToken) {
     const newConfig = config;
