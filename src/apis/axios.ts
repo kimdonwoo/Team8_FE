@@ -9,6 +9,7 @@ export const instance = axios.create({
 
 instance.interceptors.request.use((config: InternalAxiosRequestConfig): InternalAxiosRequestConfig => {
   const accessToken = getCookie('accessToken');
+  console.log(process.env.REACT_APP_API_URL);
   if (accessToken) {
     const newConfig = config;
     newConfig.headers.Authorization = getCookie('accessToken');
