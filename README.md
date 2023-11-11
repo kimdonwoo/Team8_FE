@@ -1,6 +1,6 @@
 <p align="center">
   <br/>
-  <img width="300" src="/public/textLogo.svg">
+  <img width="700" src="https://github.com/Step3-kakao-tech-campus/Team8_FE/assets/104193739/a0436026-f30b-4d1c-9daa-97940267d30c">
   <br/>
   <br/>
   <br/>
@@ -9,51 +9,52 @@
 # wekiki
 
 > **카카오 테크 캠퍼스 1기 3단계 프로젝트**  
-**개발 기간 : 2023.09.25 ~ 2023.11.11**
+> **개발 기간 : 2023.09.25 ~ 2023.11.11**
 
 <br/>
 
 ## 배포 주소
 
-> **프론트 서버** : https://kb70bd6b8a3f6a.user-app.krampoline.com/   
-**백엔드 서버** : https://kb70bd6b8a3f6a.user-app.krampoline.com/api/
+> **프론트 서버** : https://kb70bd6b8a3f6a.user-app.krampoline.com/  
+> **백엔드 서버** : https://kb70bd6b8a3f6a.user-app.krampoline.com/api/
 
 <br/>
 
-## 팀소개
+## 팀 소개
 
-<table>
-    <tr>
-        <td align="center">
-        <a href="https://github.com/publdaze">
-            <img src="https://github.com/publdaze.png" width="100" alt="" />
-            <br />
-            <sub><b>publdaze</b></sub>
-        </a>
-        <br />
-        </td>
-        <td align="center">
-        <a href="https://github.com/GangHub1970">
-            <img src="https://github.com/GangHub1970.png" width="100" alt="" />
-            <br />
-            <sub><b>GangHub1970</b></sub>
-        </a>
-        <br />
-        </td>
-        <td align="center">
-        <a href="https://github.com/qwer15948">
-            <img src="https://github.com/qwer15948.png" width="100" alt="" />
-            <br />
-            <sub><b>qwer15948</b></sub>
-        </a>
-    </tr>
-</table>
+<div align="center">
+
+|            <img src="https://github.com/publdaze.png" width="100">            |          <img src="https://github.com/qwer15948.png" width="100">           | <img src="https://github.com/GangHub1970.png" width="100"> |
+| :---------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :--------------------------------------------------------: |
+|                                    김은지                                     |                                   송지혜                                    |                            윤강                            |
+|                    [publdaze](https://github.com/publdaze)                    |                  [qwer15948](https://github.com/qwer15948)                  |       [GangHub1970](https://github.com/GangHub1970)        |
+| Auth(카카오 API) <br> 이메일 인증 <br> 회원관리 <br> 마이페이지 <br> 퍼블리싱 | 페이지 관리 <br> 포스트(CkEditor5) <br> 댓글 <br> 페이지 링크 <br> 퍼블리싱 | 그룹 생성(s3) <br> 초대 <br> 그룹 마이페이지 <br> 퍼블리싱 |
+
+</div>
 
 <br/>
 
-## 프로젝트 소개
+## 서비스 소개
 
-<img width="700" alt="image" src="https://github.com/Step3-kakao-tech-campus/Team8_FE/assets/78250089/f83e0e23-ed39-4ac1-a4a8-21329f9ef334">
+<p align="center"><img width="700" alt="image" src="https://github.com/Step3-kakao-tech-campus/Team8_FE/assets/104193739/c20e5078-49de-4153-a07e-41b41137f3c9"></p>
+
+우리만의 추억을 함께 기록하고, 즐거운 순간을 공유하며 소중한 경험을 함께 만들어보세요! 위키키는 친구, 동료와 함께 다양한 활동을 기록하며 우리만의 특별한 공간을 만들 수 있는 그룹형 커뮤니티 서비스입니다.
+
+### 서비스 특징
+
+1. 그룹 기반의 다양한 활동 기록 📝
+
+   서로의 추억과 경험을 기록하고 페이지 별 목차를 통해 정보에 편리하게 접근하세요.
+
+2. 편리한 그룹원 초대 및 편집 권한 📨
+
+   그룹을 손쉽게 생성하고 초대링크를 통해 친구나 동료를 초대하세요. 모든 그룹원에게 페이지 편집 권한이 있어 함께 만들어가는 즐거움을 누릴 수 있습니다.
+
+3. 비공개 그룹 옵션 🔐
+
+   원하는 경우 비공개 그룹으로 설정하여 오직 그룹원끼리만 접근할 수 있도록 하세요. 우리만의 기록 공간을 안전하게 유지할 수 있습니다.
+
+위키키를 통해 함께 즐거운 순간을 기록하고 공유하는 새로운 경험을 만나보세요. 다양한 활동을 즐기며 소중한 추억을 함께 쌓아가는 여정을 시작해보세요!
 
 <br/>
 
@@ -129,6 +130,63 @@
 | <img src="https://github.com/Step3-kakao-tech-campus/Team8_FE/assets/78250089/efa55677-5963-40f0-b043-711990bf1ad0" width="400"> | <img src="https://github.com/Step3-kakao-tech-campus/Team8_FE/assets/78250089/87dbe659-457a-40fb-91c7-eb87ee7f8c64" width="400"> |
 
 <br/>
+
+## 프로젝트 실행 방법
+### FE
+개발 환경에서 프로젝트를 테스트하려면 아래의 항목이 필요합니다.
+
+
+### 환경변수
+<table>
+  <tr>
+    <td><b>environment</b></td>
+    <td><b>description</b></td>
+  </tr>
+  <tr>
+    <td>{REACT_APP_API_URL}</td>
+    <td>API 통신을 위한 서버의 URL을 입력해주세요.</td>
+  </tr>
+  <tr>
+    <td>{REACT_APP_BUCKET_NAME}</td>
+    <td>AWS S3 버킷의 이름을 입력해주세요.</td>
+  </tr>
+  <tr>
+    <td>{REACT_APP_REGION}</td>
+    <td>AWS S3 버킷이 저장된 위치를 입력해주세요.</td>
+  </tr>
+  <tr>
+    <td>{REACT_APP_ACCESS_KEY_ID}</td>
+    <td>AWS S3에 접근하기 위한 사용자의 access key를 입력해주세요.</td>
+  </tr>
+  <tr>
+    <td>{REACT_APP_SECRET_ACCESS_KEY}</td>
+    <td>AWS S3에 접근하기 위한 사용자의 secret access key를 입력해주세요.</td>
+  </tr>
+  <tr>
+    <td>{REACT_APP_KAKAO_REDIRECT_URL}</td>
+    <td>카카오 로그인을 위한 인가 코드를 전달받을 서비스 서버의 URL을 입력해주세요.</td>
+  </tr>
+  <tr>
+    <td>{REACT_APP_KAKAO_REST_API_KEY}</td>
+    <td>카카오 로그인의 client-id로 사용되는 앱 REST API 키를 입력해주세요.</td>
+  </tr>
+</table>
+<br/>
+
+* 환경 변수를 바탕으로 .env 파일을 생성합니다.
+
+```
+REACT_APP_API_URL={배포된 백엔드 API 주소}
+...
+```
+* 위의 과정을 마치고 프로그램을 실행합니다.
+
+```
+npm install
+npm start
+```
+
+</br>
 
 ## 디렉토리 구조
 
