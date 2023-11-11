@@ -44,7 +44,7 @@ const ReportPage = () => {
           <Typography variant='h6' color='gray' className='text-xs mt-2 mb-10'>
             검토 후 사유가 미흡하다고 판단되면 신고가 취소될 수 있습니다.
           </Typography>
-          <Button type='submit' className='rounded' onClick={() => navigate(`/${groupId}/${page}`)}>
+          <Button ripple={false} type='submit' className='rounded' onClick={() => navigate(`/${groupId}/${page}`)}>
             돌아가기
           </Button>
         </div>
@@ -59,7 +59,7 @@ const ReportPage = () => {
               신고는 운영진에게 전달되며, 신고된 내용은 운영진이 검토 후에 삭제될 수 있습니다.
             </Typography>
           </div>
-          <div className='py-4 flex flex-col gap-6'>
+          <form className='py-4 flex flex-col gap-6'>
             <div className='flex gap-4 items-center'>
               <Typography variant='h6' className='w-1/6'>
                 신고 사유
@@ -93,11 +93,11 @@ const ReportPage = () => {
               </div>
             </div>
             <div className='flex justify-end'>
-              <Button className='rounded' onClick={handleReportClick}>
+              <Button type='submit' ripple={false} className='rounded' onClick={handleReportClick}>
                 신고하기
               </Button>
             </div>
-          </div>
+          </form>
         </div>
       )}
     </section>
