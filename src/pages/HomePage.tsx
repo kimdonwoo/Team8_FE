@@ -65,7 +65,7 @@ const HomePage = () => {
               <p className='text-center my-10'>참여한 그룹이 없습니다.</p>
             )}
           </section>
-           <section>
+          <section>
             <h2 className={titleStyle}>공식 그룹</h2>
             {groupList && groupList.officialGroup.length > 0 ? (
               <OfficialGroup officialGroups={groupList.officialGroup} />

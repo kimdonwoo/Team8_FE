@@ -24,7 +24,7 @@ const GroupSearchResultPage = () => {
       <h1 className='mb-8'>
         &apos;<span className='text-xl font-bold'>{keyword}</span>&apos;에 대한 검색 결과입니다.
       </h1>
-       <div className='flex gap-2 h-9'>
+      <div className='flex gap-2 h-9'>
         <Button
           variant={isOfficialGroup ? 'filled' : 'outlined'}
           size='sm'
@@ -50,10 +50,10 @@ const GroupSearchResultPage = () => {
         <div className='flex flex-col items-center justify-center h-[300px]'>
           <h1 className='mb-2 text-xl font-bold'>관련된 그룹이 없어요.</h1>
           {!isOfficialGroup && (
-          <Link to='/groupCreate' className='mt-2 text-sm text-gray-400 hover:text-blue-300'>
-            <span>새로운 그룹 만들러 가기</span>
-            <MdChevronRight className='inline-block' width={15} height={15} />
-          </Link>
+            <Link to='/groupCreate' className='mt-2 text-sm text-gray-400 hover:text-blue-300'>
+              <span>새로운 그룹 만들러 가기</span>
+              <MdChevronRight className='inline-block' width={15} height={15} />
+            </Link>
           )}
         </div>
       ) : (
